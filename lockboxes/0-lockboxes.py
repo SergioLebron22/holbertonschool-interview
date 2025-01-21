@@ -1,6 +1,13 @@
 #!/usr/bin/python3
 
 def canUnlockAll(boxes):
+    """
+    Determines if all boxes can be opened.
+
+    :param boxes: List of lists where each inner list contains keys to other boxes
+    :return: True if all boxes can be opened, otherwise False
+    """
+     
     if not isinstance(boxes, list):
         return False
     
