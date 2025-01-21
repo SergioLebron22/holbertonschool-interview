@@ -2,15 +2,11 @@
 
 def canUnlockAll(boxes):
     """
-    Determines if all the boxes can be opened.
-    A list of lists is given where each inner list represents a box and contains keys to other boxes.
-    The function returns True if all boxes can be opened, otherwise returns False.
-    Parameters:
-    boxes (list of list of int): A list of lists where each inner list contains keys to other boxes.
-    Returns:
-    bool: True if all boxes can be opened, False otherwise.
+    Determines if all boxes can be opened.
+
+    :param boxes: List of lists where each inner list contains keys to other boxes
+    :return: True if all boxes can be opened, otherwise False
     """
-     
     if not isinstance(boxes, list):
         return False
     
