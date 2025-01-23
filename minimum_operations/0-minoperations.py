@@ -7,8 +7,10 @@ Find min operations of n H in a text file
 
 def minOperations(n) -> int:
     """
-    Calculates the minimum number of operations needed to result in exactly n 'H' characters in a text file,
-    starting with a single 'H'. The only operations allowed are Copy All and Paste.
+    Calculates the minimum number of operations needed to 
+    result in exactly n 'H' characters in a text file,
+    starting with a single 'H'. The only operations allowed are 
+    Copy All and Paste.
     Args:
         n (int): The target number of 'H' characters.
     Returns:
