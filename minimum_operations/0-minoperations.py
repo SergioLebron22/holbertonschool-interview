@@ -14,7 +14,8 @@ def minOperations(n) -> int:
     Args:
         n (int): The target number of 'H' characters.
     Returns:
-        int: The minimum number of operations required to achieve exactly n 'H' characters.
+        int: The minimum number of operations required to 
+        achieve exactly n 'H' characters.
               Returns 0 if n is less than 2.
     """
 
