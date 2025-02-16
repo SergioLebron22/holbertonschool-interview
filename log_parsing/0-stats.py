@@ -16,6 +16,17 @@ sizes = [0]
 
 
 def print_stats():
+    """
+    Prints the accumulated statistics of file sizes and status code counts.
+
+    The function prints the total file size and the count of each status code
+    that has been recorded. The status codes are printed in ascending order.
+
+    The function assumes the existence of two global variables:
+    - sizes: A list of integers representing file sizes.
+    - stats: A dictionary where keys are status codes (as strings) and values
+      are the counts of occurrences of each status code.
+    """
     print('File size: {}'.format(sum(sizes)))
     for s_code, count in sorted(stats.items()):
         if count:
