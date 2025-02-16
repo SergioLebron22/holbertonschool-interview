@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+
 """
-log parsing
+This module is used to parse logs. It reads logs 
+from the standard input,
+parses them, and prints statistics every 10 lines.
 """
 
 # Variables
